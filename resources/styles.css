@@ -11,6 +11,7 @@ body {
 
 header {
     width: 100%;
+    text-transform: uppercase;
 }
 
 header h1 {
@@ -39,6 +40,14 @@ header nav {
 
 header nav a {
     color: whitesmoke;
+}
+
+header nav a:hover{
+    text-shadow: #CCC 1px 0 10px;
+}
+
+header nav a:active{
+    color: #E5FBCB;
 }
 
 header ul {
@@ -160,8 +169,132 @@ figure {
 }
 
 figure .img {
+    width: 325px;
+    height: 335px;
+    margin-bottom: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avocado {
+    background-image: url(./alina-karpenko-VP1YuuSnmVQ-unsplash.jpg);   
+}
+
+.apple {
+    background-image: url(./marek-studzinski-3D6yReT06p0-unsplash.jpg);
+}
+
+.grape {
+    background-image: url(./howard-bouchevereau-vHnQqO3TT4c-unsplash.jpg);
+}    
+
+.blueberry {
+    background-image: url(./joanna-kosinska-4qujjbj3srs-unsplash.jpg);
+}
+
+.lettuce {
+    background-image: url(./pina-messina-Oc3fP0FXJbU-unsplash.jpg);
+}
+
+.onion {
+    background-image: url(./vivek-sharma-rDDICrot22U-unsplash.jpg);
+}
+
+.banana {
+    background-image: url(./giorgio-trovato-fczCr7MdE7U-unsplash.jpg);
+}
+
+.potato {
+    background-image: url(./rodrigo-dos-reis-h3AkzboxK4Q-unsplash.jpg);
+}
+
+.watch-more {
+    margin: 2rem auto;
+    color: #5F6B5B;
+}
+
+#team {
     width: 100%;
-    height: 70%;
-    background-image: url(./alina-karpenko-VP1YuuSnmVQ-unsplash.jpg);
+    background-color:#C1FA7F;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#team h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#team .container {
+    width: 80%;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+#team .card {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#team img {
+    margin: 1rem auto;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#team figcaption {
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#info {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 60%;
+    margin: 1.5rem auto;
+}
+
+article {
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+
+aside {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+address {
+    margin: 1rem auto;
+}
+
+.copyright {
+    background-color: #707A63;
+    color: honeydew;
+    width: 100%;
+    text-align: center;
+    line-height: .25rem;
 }
 
