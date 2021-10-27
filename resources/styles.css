@@ -344,6 +344,15 @@ address {
         line-height: 0.25rem;
     }
 
+    #services figure .img {
+        width: 270px;
+        height: 300px;
+        margin-bottom: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     header p {
         font-size: 0.75rem;
     }
