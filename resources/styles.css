@@ -1,0 +1,167 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #D3EECA;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5F6B5B;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 5rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    background-color: #476B3B;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header nav a {
+    color: whitesmoke;
+}
+
+header ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 0;
+    margin: 0;
+}
+
+header ul li {
+    font-size: 2.75rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main section */
+
+/* mission */
+
+section#mission {
+    height: 25rem;
+    color: whitesmoke;
+    background-image: url(./aabir-ahammed-0CRNIyCStgQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    line-height: 0.25rem;
+}
+
+#mission p {
+    max-width: 60%;
+    font-size: 1.5rem;
+}
+
+/* services */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 95%;
+    margin: 2rem auto;
+    background-color: whitesmoke;
+    border-radius: 0.25rem;
+}
+
+#services nav {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+#services nav form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: auto;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#services input {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border-color: rgb(202, 198, 198);
+    border-style: solid;
+}
+
+#services select {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border-color: rgb(202, 198, 198);
+    color: #5F6B5B;
+}
+
+div.title {
+    width: 90%;
+}
+
+#services h2 {
+    font-size: 3rem;
+    line-height: 0.25rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+figure {
+    margin: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure .img {
+    width: 100%;
+    height: 70%;
+    background-image: url(./alina-karpenko-VP1YuuSnmVQ-unsplash.jpg);
+}
+
