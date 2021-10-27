@@ -27,7 +27,7 @@ header h1 {
     align-items: center;
 }
 
-header nav {
+.nav-header {
     display: flex;
     width: 100%;
     background-color: #476B3B;
@@ -38,19 +38,19 @@ header nav {
     top: 0;
 }
 
-header nav a {
+.nav-header a {
     color: whitesmoke;
 }
 
-header nav a:hover{
+.nav-header a:hover{
     text-shadow: #CCC 1px 0 10px;
 }
 
-header nav a:active{
+.nav-header a:active{
     color: #E5FBCB;
 }
 
-header ul {
+.nav-header ul {
     width: 100%;
     display: flex;
     list-style: none;
@@ -59,13 +59,14 @@ header ul {
     margin: 0;
 }
 
-header ul li {
-    font-size: 2.75rem;
+.nav-header ul li {
+    font-size: 2.5rem;
 }
 
 a {
     text-decoration: none;
 }
+
 
 /* Main section */
 
@@ -94,6 +95,7 @@ section#mission {
 #mission p {
     max-width: 60%;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 /* services */
@@ -112,6 +114,7 @@ section#mission {
 #services nav {
     width: 90%;
     margin: 2rem auto;
+    background-color: whitesmoke;
 }
 
 #services nav form {
@@ -121,6 +124,7 @@ section#mission {
     padding: auto;
     align-items: center;
     font-size: 1.5rem;
+    flex-wrap: wrap;
 }
 
 #services input {
@@ -270,8 +274,10 @@ footer {
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
+    flex-wrap: wrap;
     width: 60%;
     margin: 1.5rem auto;
+    align-items: center;
 }
 
 article {
@@ -298,3 +304,33 @@ address {
     line-height: .25rem;
 }
 
+@media only screen and (max-width: 770px) {
+    .nav-header ul li {
+        font-size: 1.5rem;
+    }
+
+    #mission p {
+        max-width: 80%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    #info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        border-right: none;
+        width: 80%;
+        border-bottom: gray;
+    }
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
