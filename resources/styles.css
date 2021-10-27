@@ -272,10 +272,10 @@ footer {
 
 #info {
     display: flex;
-    justify-content: space-evenly;
-    justify-items: center;
+    justify-content: center;
+    justify-items: space-evenly;
     flex-wrap: wrap;
-    width: 60%;
+    width: 80%;
     margin: 1.5rem auto;
     align-items: center;
 }
@@ -283,7 +283,6 @@ footer {
 article {
     width: 50%;
     text-align: center;
-    border-right: 1px solid gray;
 }
 
 aside {
