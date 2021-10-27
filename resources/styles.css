@@ -329,8 +329,53 @@ address {
         width: 80%;
         border-bottom: gray;
     }
+    aside {
+        width: 80%;
+    }
     iframe {
         width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+        line-height: 0.25rem;
+    }
+
+    header p {
+        font-size: 0.75rem;
+    }
+
+    .nav-header {
+        height: 2rem;
+    }
+
+    .nav-header ul li {
+        font-size: 0.75rem;
+    }
+
+    #mission h2 {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+    }
+
+    #mission p {
+        font-size: 0.75rem;
+    }
+
+    #services nav form {
+        justify-content: center;
+    }
+
+    #services input, .filter-products, #services select {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #team img {
+        width: 200px;
         height: auto;
     }
 }
